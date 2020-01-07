@@ -23,7 +23,7 @@
 
     Object.keys($button).forEach( key => {
         $button[key].addEventListener('click', function(){
-            fetch(`http://localhost:3000/game?action=${key}&timestamp=1578021481921`)
+            fetch(`http://localhost:9527/game?action=${key}&timestamp=1578021481921`)
                 .then( (res) => {
                     return res.text();
                 } )

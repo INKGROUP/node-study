@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "glob": "^7.1.6",
     "supervisor": "^0.12.0"
   },
